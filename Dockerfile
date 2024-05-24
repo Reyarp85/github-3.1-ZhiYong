@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM python:3.13.0b1-slim
 
 RUN apt update
 # Install Airflow pre-requisites: https://airflow.apache.org/docs/apache-airflow/2.0.0/installation.html#getting-airflow
